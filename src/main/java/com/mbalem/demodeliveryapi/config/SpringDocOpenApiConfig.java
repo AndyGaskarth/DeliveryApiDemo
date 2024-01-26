@@ -24,7 +24,7 @@ public class SpringDocOpenApiConfig {
     @Bean
     public OpenAPI springOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("API de Gerenciamento de Delivery")
+                .info(new Info().title("API de Gerenciamento de Delivery's")
                         .description("Sistema simplificado para o controle de delivery de um restaurante")
                         .version("v0.0.1")
                         .license(new License().name("Apache 2.0").url("http://springdoc.org")))
